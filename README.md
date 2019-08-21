@@ -1,4 +1,5 @@
-# REX-Ray [![GoDoc](https://godoc.org/github.com/rexray/rexray?status.svg)](http://godoc.org/github.com/rexray/rexray) [![Build Status](http://travis-ci.org/rexray/rexray.svg?branch=master)](https://travis-ci.org/rexray/rexray) [![Go Report Card](http://goreportcard.com/badge/rexray/rexray)](http://goreportcard.com/report/rexray/rexray) [![codecov.io](https://codecov.io/github/rexray/rexray/coverage.svg?branch=master)](https://codecov.io/github/rexray/rexray?branch=master) [ ![Download](http://api.bintray.com/packages/rexray/rexray/stable/images/download.svg) ](https://dl.bintray.com/rexray/rexray/stable/latest/)
+# REX-Ray [![GoDoc](https://godoc.org/github.com/rexray/rexray?status.svg)](http://godoc.org/github.com/rexray/rexray) [![Build Status](http://travis-ci.org/rexray/rexray.svg?branch=master)](https://travis-ci.org/rexray/rexray) [![Go Report Card](http://goreportcard.com/badge/rexray/rexray)](http://goreportcard.com/report/rexray/rexray) [![codecov.io](https://codecov.io/github/rexray/rexray/coverage.svg?branch=master)](https://codecov.io/github/rexray/rexray?branch=master) [ ![Download](http://api.bintray.com/packages/rexray/rexray/stable/images/download.svg) [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmichaelcoyote%2Frexray.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmichaelcoyote%2Frexray?ref=badge_shield)
+](https://dl.bintray.com/rexray/rexray/stable/latest/)
 
 ---
 
@@ -131,3 +132,7 @@ ID                  NAME                   DESCRIPTION              ENABLED
 $ docker run -ti --volume-driver=rexray/ebs -v test:/test busybox
 $ df -h /test
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmichaelcoyote%2Frexray.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmichaelcoyote%2Frexray?ref=badge_large)
